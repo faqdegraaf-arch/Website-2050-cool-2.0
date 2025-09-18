@@ -9,10 +9,143 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const articles = [
-    { id: 1, title: "Klimaatmigratie", tag: "Klimaat", summary: "Hoe mensen zich verplaatsen door klimaatverandering.", image: "images/a1.jpg", alt: "Mensen onderweg door een droog landschap" },
-    { id: 2, title: "Living‑lab", tag: "Innovatie", summary: "Steden als proeftuin voor duurzame innovaties.", image: "images/header.jpg", alt: "Futuristische stad met veel groen" },
-    { id: 3, title: "Boer in transitie", tag: "Economie", summary: "Landbouw schakelt over naar regeneratieve modellen.", image: "images/a2.jpg", alt: "Boerderij met groene akkers" },
-    { id: 4, title: "Eenzaamheid", tag: "Sociaal", summary: "Nieuwe initiatieven om sociale verbondenheid te versterken.", image: "images/a3.jpg", alt: "Persoon op een bankje in de stad" },
+    {
+      id: 1,
+      title: "Klimaatmigratie",
+      tag: "Klimaat",
+      summary: "Hoe mensen zich verplaatsen door klimaatverandering.",
+      image: "images/a1.jpg",
+      alt: "Mensen onderweg door een droog landschap",
+      content: `<p><strong>Randstad News, 2050 –</strong> Amsterdam is hosting a record number of climate migrants this
+year, with 12,800 arrivals from Nigeria, according to new figures released by the
+municipality. The migrants fled extreme drought, heatwaves, and widespread crop
+failures in northern Nigeria, where temperatures this spring peaked above 50°C.</p>
+
+<p>The city is struggling to provide sufficient housing. To respond, the municipality is
+setting up 4,000 modular housing units in Haven-Stad and converting vacant office
+buildings in the Zuidas district. Alderman Yasmin el Hariri described the initiative as
+“a necessary, humane response to a global crisis.”</p>
+
+<p>The influx is part of commitments under the European Climate Accord, under which the
+Netherlands accepts 50,000 climate migrants each year. Amsterdam has voluntarily
+agreed to accommodate one-fifth of that total.</p>
+
+<p>Alongside housing, the city has launched the integration program <em>Welkom2050</em>,
+offering language courses, employment pathways, and education. The Amsterdam
+University of Applied Sciences is developing specialized training for migrants with
+technical or agricultural expertise.</p>
+
+<p>Criticism has also surfaced. Some political groups warn of pressure on the housing
+market and social services. However, community-led projects have emerged to support
+integration, including neighborhood initiatives pairing newcomers with local families.</p>`
+    },
+    { id: 2, title: "Living‑lab", tag: "Innovatie", summary: "Steden als proeftuin voor duurzame innovaties.", image: "images/header.jpg", alt: "Futuristische stad met veel groen", content: `<p> Randstad News, 2050 - Amsterdam officially opened its new “living lab” on the IJ today,
+an initiative designed to provide space for experimental innovations with water
+management. The lab will serve as both a research site and an interactive space to
+engage the public with experiments addressing the growing salinization of the IJ. <p>
+
+In recent years, saltwater has increasingly entered the IJ from the North Sea Canal,
+while freshwater supplies from the Markermeer have dwindled. This process of
+salinization, seen along much of the Dutch west coast, poses serious risks for
+agriculture, drinking water supply, and vulnerable natural areas. As a result, water
+boards, universities, and government agencies are eager to explore solutions, and the IJ
+offers an unique testing ground. <p>
+
+At today’s ribbon-cutting, the chair of the Amsterdam Metropolitan Area praised the
+initiative:
+“It’s a wonderful opportunity we are happy to contribute to. Amsterdam means water,
+and we face many challenges. This interactive space not only helps us research
+solutions but also builds awareness about how we can be more mindful with water—
+especially drinking water. It sparks conversations we urgently need to have.”<p>
+
+But while city leaders celebrated the project, not everyone was in a festive mood. Over
+10,000 people gathered at the harbor in protest, organized by the union FFE (Future for
+Everyone). The demonstrators demanded a redistribution of city funding, with more
+investment directed toward neighborhoods officially recognized as flood-risk zones for
+the past five years.<p>
+
+A spokesperson for TVI criticized the initiative, saying:
+“They keep investing in a ‘city of the future’ for the wealthy while ignoring residents in
+high-risk areas. Just recently, one of these neighborhoods flooded, costing three lives.
+When will the government take that seriously? We want safer housing, better social
+services, and equal opportunities.”<p>
+
+The union is calling for a meeting with the chairperson of the Amsterdam Metropolitan
+Area and a revision of the city’s five-year budget. If their demands are not met, FFE says
+it will return with new protests during the upcoming Sail event in two weeks.` },
+    { id: 3, title: "Boer in transitie", tag: "Economie", summary: "Landbouw schakelt over naar regeneratieve modellen.", image: "images/a2.jpg", alt: "Boerderij met groene akkers", content: `
+
+<p><strong>Randstad News, 2050 –</strong> The salinization of farmland has become one of the
+Netherlands’ most pressing agricultural challenges. Driven by rising sea levels, reduced
+river discharge, and prolonged droughts, salt intrusion is threatening the viability of
+traditional crops across the country. According to the Netherlands Environmental
+Assessment Agency, thousands of hectares of farmland are expected to face severe
+salinization in the coming decades.</p>
+
+<p>In the Haarlemmermeerpolder, just outside Amsterdam, the effects are already visible.
+Farmers report that yields of traditional crops such as potatoes, onions, and sugar
+beets have dropped by half. As a result, the region has become a testing ground for
+saline agriculture, with projects supported by universities and research institutes.</p>
+
+<p>One of the pioneering farmers in this transition is Peter Bosma, whose family has
+cultivated the polder’s fertile soils for generations. He recalls how the signs of
+salinization first emerged gradually. “At first, some crops grew less vigorously, and the
+potatoes developed unusual spots,” he explains. “Over time, dry summers caused salt
+levels in the ditches to rise. It became clear that this wasn’t a one-time issue—it was
+structural.”</p>
+
+<p>Faced with declining yields, Peter decided to take part in a collaborative project with
+Van Hall Larenstein University of Applied Sciences. “Initially, we tried traditional
+methods—flushing with freshwater, applying more fertilizer, switching to different
+varieties,” he says. “But none of that solved the problem. Transitioning to salt-tolerant
+crops is risky, but continuing with crops that no longer survive simply isn’t sustainable.”</p>
+
+<p>The move has not been without challenges. While interest in saline crops is growing,
+demand from consumers remains lower than for conventional produce. Still, Peter
+believes the transition is both inevitable and necessary. “Farmers in vulnerable areas
+like polders must adapt. But consumers also need to change their expectations.
+Climate adaptation in agriculture is not only about survival—it requires farmers to
+become entrepreneurs and researchers as well.”</p>
+
+<p>The developments in Haarlemmermeer illustrate a broader shift taking place across the
+Randstad. Saline farming, once considered a niche experiment, is now seen as a critical
+strategy for safeguarding food production in an era of accelerating climate change.</p>` },
+    { id: 4, title: "Eenzaamheid", tag: "Sociaal", summary: "Nieuwe initiatieven om sociale verbondenheid te versterken.", image: "images/a3.jpg", alt: "Persoon op een bankje in de stad", content: `
+
+<p><strong>Randstad News, 2050 –</strong> A new study shows that loneliness in the Netherlands has risen
+sharply in recent years. While in 2025 only 18 percent of the population reported feeling
+lonely, the figure has since increased by 12 percentage points. Today, nearly one in three
+people in the country experience some form of social isolation.</p>
+
+<p>Researchers identify digitalization as a key driver. Technology has streamlined many
+aspects of daily life, but at the cost of personal interaction. Where people once
+exchanged a few words with the mail carrier, packages are now delivered by drones.
+Supermarkets and municipal offices increasingly rely on self-checkouts and digital
+service desks, replacing human contact with automated systems.</p>
+
+<p>“It’s a paradox,” says sociologist Dr. Marleen Veldhuis, who led the research. “We are
+constantly connected online, yet genuine, human conversation is becoming
+increasingly rare. This leaves deep marks on our sense of belonging.”</p>
+
+<p>The impact is felt across all generations. Older residents receive fewer visits and miss
+the familiar faces in their neighborhoods. Younger people report a growing gap between
+their online identities and their need for real-world connection. Many respondents
+emphasized the loss of spontaneous encounters—such as a quick chat with a delivery
+person or a smile from a shop clerk—as a significant absence.</p>
+
+<p>The study calls on policymakers to restore balance. Digitalization does not necessarily
+have to eliminate physical contact, researchers argue. Instead, technology should be
+used in ways that enhance human interaction. Initiatives such as neighborhood cafés,
+community spaces, and hybrid service models are highlighted as potential remedies.</p>
+
+<p>“As a society, we need to ask ourselves which forms of contact we are not willing to
+lose,” Veldhuis concludes. “Loneliness is not an individual problem but a collective
+challenge. We can use technology to bring people closer together, but it requires
+conscious choices.”</p>
+
+<p>With the holiday season approaching, the researchers emphasize the importance of
+looking out for one another. A visit, a short conversation, or simply making time for each
+other can already make a meaningful difference.</p>` },
   ];
 
   
@@ -66,10 +199,11 @@ document.addEventListener("DOMContentLoaded", () => {
         <article class="card">
           <img class="img-cover" src="${state.activeArticle.image}" alt="${state.activeArticle.alt || ""}" />
           <div class="card-content">
-            ${metaRow(state.activeArticle.tag, state.activeArticle.time || "")}
-            <h2>${state.activeArticle.title}</h2>
-            <p class="muted">Hier komt later de volledige tekst van het artikel: <strong>${state.activeArticle.title}</strong>.</p>
-            <button class="btn" id="backBtn">← Terug</button>
+        ${metaRow(state.activeArticle.tag, state.activeArticle.time || "")}
+        <h2>${state.activeArticle.title}</h2>
+        <p class="muted">${state.activeArticle.summary}</p>
+        <p class="muted">${state.activeArticle.content}</p>
+        <button class="btn" id="backBtn">← Terug</button>
           </div>
         </article>`;
       document.getElementById("backBtn").onclick = () => { state.page = "home"; state.activeArticle = null; render(); };
