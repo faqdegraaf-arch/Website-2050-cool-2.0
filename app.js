@@ -73,7 +73,7 @@ services, and equal opportunities.”<p>
 The union is calling for a meeting with the chairperson of the Amsterdam Metropolitan
 Area and a revision of the city’s five-year budget. If their demands are not met, FFE says
 it will return with new protests during the upcoming Sail event in two weeks.` },
-    { id: 3, title: "Boer in transitie", tag: "Economie", summary: "Landbouw schakelt over naar regeneratieve modellen.", image: "images/a2.jpg", alt: "Boerderij met groene akkers", content: `
+    { id: 3, title: "Farmer in transition", tag: "Economy", summary: "Agriculture is transitioning to regenerative models.", image: "images/a2.jpg", alt: "Farm with green fields", content: `
 
 <p><strong>Randstad News, 2050 –</strong> The salinization of farmland has become one of the
 Netherlands’ most pressing agricultural challenges. Driven by rising sea levels, reduced
@@ -110,7 +110,7 @@ become entrepreneurs and researchers as well.”</p>
 <p>The developments in Haarlemmermeer illustrate a broader shift taking place across the
 Randstad. Saline farming, once considered a niche experiment, is now seen as a critical
 strategy for safeguarding food production in an era of accelerating climate change.</p>` },
-    { id: 4, title: "Eenzaamheid", tag: "Sociaal", summary: "Nieuwe initiatieven om sociale verbondenheid te versterken.", image: "images/a3.jpg", alt: "Persoon op een bankje in de stad", content: `
+    { id: 4, title: "Loneliness", tag: "Social", summary: "New initiatives to strengthen social cohesion.", image: "images/a3.jpg", alt: "Person sitting on a bench in the city", content: `
 
 <p><strong>Randstad News, 2050 –</strong> A new study shows that loneliness in the Netherlands has risen
 sharply in recent years. While in 2025 only 18 percent of the population reported feeling
