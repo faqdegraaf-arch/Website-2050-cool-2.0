@@ -3,7 +3,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const state = {
-    page: "home", // home | article | weather | live
+    page: "home", // home | article | weather | In short
     activeArticle: null,
     dark: false,
   };
@@ -160,7 +160,7 @@ other can already make a meaningful difference.</p>` },
     updated: new Intl.DateTimeFormat("nl-NL", { hour: "2-digit", minute: "2-digit" }).format(new Date())
   };
 
-  const live = { label: "Live: Parliament debates water policy", viewers: "14k" };
+  const In short = { label: "In short: Low Water Levels Disrupt Dutch Inland Shipping"};
 
   const app = document.getElementById("app");
 
