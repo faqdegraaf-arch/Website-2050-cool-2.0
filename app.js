@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ${metaRow(s.tag, s.time || "")}
         <h2>${s.title}</h2>
         <p class="muted">${s.summary}</p>
-        <button class="btn" data-article="${s.id}">Lees meer</button>
+        <button class="btn" data-article="${s.id}">Read more</button>
       </div>
     </article>`;
   }
