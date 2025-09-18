@@ -122,14 +122,14 @@ document.addEventListener("DOMContentLoaded", () => {
     app.innerHTML = `
       <section class="grid grid-3">
         <div>
-          <h1 class="title" style="font-size:22px;margin:0 0 12px">Vandaag – updates</h1>
+          <h1 class="title" style="font-size:22px;margin:0 0 12px">Today – updates</h1>
           ${heroCard(hero)}
           ${rest.length ? `<div class="list-3" style="margin-top:16px">${rest.map(articleCard).join("")}</div>` : ""}
         </div>
 
         <aside class="card" style="padding:16px;display:flex;flex-direction:column;gap:16px">
           <div style="display:flex;justify-content:space-between;align-items:center">
-            <h3 class="title" style="font-size:14px;margin:0">Weer vandaag</h3>
+            <h3 class="title" style="font-size:14px;margin:0">Weather today</h3>
             <button class="btn" id="weatherBtn">Details</button>
           </div>
           <p class="muted" style="margin:0">${weather.icon} ${weather.tempC}°C – ${weather.condition}</p>
