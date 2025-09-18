@@ -203,7 +203,7 @@ other can already make a meaningful difference.</p>` },
         <h2>${state.activeArticle.title}</h2>
         <p class="muted">${state.activeArticle.summary}</p>
         <p class="muted">${state.activeArticle.content}</p>
-        <button class="btn" id="backBtn">← Terug</button>
+        <button class="btn" id="backBtn">← Back</button>
           </div>
         </article>`;
       document.getElementById("backBtn").onclick = () => { state.page = "home"; state.activeArticle = null; render(); };
@@ -266,7 +266,7 @@ other can already make a meaningful difference.</p>` },
 “One ship equals hundreds of trucks. If shipping comes to a halt, we immediately face a problem. We now have to fall back on alternatives: extra trains and electric trucks. But that takes time, and capacity is limited. On top of that, some shipments are already stuck on vessels that can’t move any further because of the low water.”</p>
 
 <p>Experts warn that the situation highlights the Netherlands’ vulnerability to water scarcity. As long as water continues to be retained upstream, river levels will remain low, putting the country’s logistics sector under pressure. Consumers can expect parcel delays to continue for at least several more weeks.</P
-
+          <div>
             <button class="btn" id="backBtn">← Back</button>
           </div>
         </article>`;
