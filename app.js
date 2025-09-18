@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const articles = [
     {
       id: 1,
-      title: "Klimaatmigratie",
-      tag: "Klimaat",
-      summary: "Hoe mensen zich verplaatsen door klimaatverandering.",
+      title: "Climatemigration",
+      tag: "Climate",
+      summary: "How people are moving due to climate change.",
       image: "images/a1.jpg",
-      alt: "Mensen onderweg door een droog landschap",
+      alt: "People travelling through a dry landscape",
       content: `<p><strong>Randstad News, 2050 –</strong> Amsterdam is hosting a record number of climate migrants this
 year, with 12,800 arrivals from Nigeria, according to new figures released by the
 municipality. The migrants fled extreme drought, heatwaves, and widespread crop
