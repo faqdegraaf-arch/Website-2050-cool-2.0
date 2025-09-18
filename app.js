@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const articles = [
     { id: 1, title: "Klimaatmigratie", tag: "Klimaat", summary: "Hoe mensen zich verplaatsen door klimaatverandering.", image: "https://source.unsplash.com/600x400/?migration,climate", alt: "Mensen onderweg door een droog landschap" },
-    { id: 2, title: "Living‑lab", tag: "Innovatie", summary: "Steden als proeftuin voor duurzame innovaties.", image: "https://source.unsplash.com/800x500/?city,future", alt: "Futuristische stad met veel groen" },
+    { id: 2, title: "Living‑lab", tag: "Innovatie", summary: "Steden als proeftuin voor duurzame innovaties.", image: "https://github.com/faqdegraaf-arch/Website-2050-cool-2.0/blob/22f2c4c41a892a0b49b791d70f02c8ccfd3b8afa/Firefly_Amsterdam%20has%20opened%20a%20new%20%E2%80%9Cliving%20lab%E2%80%9D%20on%20the%20IJ%20to%20test%20water%20innovations%20and%20raise%20472839.jpg", alt: "Futuristische stad met veel groen" },
     { id: 3, title: "Boer in transitie", tag: "Economie", summary: "Landbouw schakelt over naar regeneratieve modellen.", image: "https://source.unsplash.com/600x400/?farm,sustainability", alt: "Boerderij met groene akkers" },
     { id: 4, title: "Eenzaamheid", tag: "Sociaal", summary: "Nieuwe initiatieven om sociale verbondenheid te versterken.", image: "https://source.unsplash.com/600x400/?loneliness,people", alt: "Persoon op een bankje in de stad" },
   ];
