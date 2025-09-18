@@ -20,12 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
     tempC: 42,
     highC: 44,
     lowC: 35,
-    condition: "Zonnig",
+    condition: "Sunny",
     icon: "☀️",
     updated: new Intl.DateTimeFormat("nl-NL", { hour: "2-digit", minute: "2-digit" }).format(new Date())
   };
 
-  const live = { label: "Live: Parlement debatteert over waterbeleid", viewers: "14k" };
+  const live = { label: "Live: Parliament debates water policy", viewers: "14k" };
 
   const app = document.getElementById("app");
 
@@ -104,9 +104,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2>${live.label}</h2>
             <p class="muted">${live.viewers} kijkers</p>
             <ul>
-              <li><time class="muted">12:34</time> Amendement over dijkversterking ingebracht door fractie X.</li>
-              <li><time class="muted">12:05</time> Minister geeft toelichting op budget voor zoetwaterbuffers.</li>
-              <li><time class="muted">11:40</time> Oppositie vraagt om meetbare doelen voor 2030.</li>
+              <li><time class="muted">12:34</time> Amendment on dyke reinforcement tabled by political group PVV.</li>
+              <li><time class="muted">12:05</time> Minister explains budget for freshwater buffers.</li>
+              <li><time class="muted">11:40</time> Opposition calls for measurable targets for 2100.</li>
             </ul>
             <button class="btn" id="backBtn">← Back</button>
           </div>
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </div>
 
-          <div class="muted" style="margin-top:auto;font-size:12px">Nieuwsbrieven • Podcasts • Live</div>
+          <div class="muted" style="margin-top:auto;font-size:12px">Newsletters • Podcasts • Live</div>
         </aside>
       </section>`;
 
