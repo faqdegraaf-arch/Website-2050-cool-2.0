@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const weather = {
     location: "Amsterdam",
-    tempC: 17,
-    highC: 19,
-    lowC: 12,
+    tempC: 42,
+    highC: 44,
+    lowC: 35,
     condition: "Zonnig",
     icon: "☀️",
     updated: new Intl.DateTimeFormat("nl-NL", { hour: "2-digit", minute: "2-digit" }).format(new Date())
