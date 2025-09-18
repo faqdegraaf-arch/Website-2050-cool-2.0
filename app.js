@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <article class="card">
           <div class="card-content">
             <h2>Weather in ${weather.location}</h2>
-            <p class="muted">${weather.condition} • geüpdatet ${weather.updated}</p>
+            <p class="muted">${weather.condition} • Updated ${weather.updated}</p>
             <div style="font-size:2rem">${weather.icon} ${weather.tempC}°C</div>
             <p class="muted">Max ${weather.highC}°C • Min ${weather.lowC}°C</p>
             <h3 style="margin-top:12px">Today</h3>
