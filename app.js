@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ${metaRow(state.activeArticle.tag, state.activeArticle.time || "")}
             <h2>${state.activeArticle.title}</h2>
             <p class="muted">Hier komt later de volledige tekst van het artikel: <strong>${state.activeArticle.title}</strong>.</p>
-            <button class="btn" id="backBtn">← Terug</button>
+            <button class="btn" id="backBtn">← Back</button>
           </div>
         </article>`;
       document.getElementById("backBtn").onclick = () => { state.page = "home"; state.activeArticle = null; render(); };
@@ -78,11 +78,11 @@ document.addEventListener("DOMContentLoaded", () => {
       app.innerHTML = `
         <article class="card">
           <div class="card-content">
-            <h2>Weer in ${weather.location}</h2>
+            <h2>Weather in ${weather.location}</h2>
             <p class="muted">${weather.condition} • geüpdatet ${weather.updated}</p>
             <div style="font-size:2rem">${weather.icon} ${weather.tempC}°C</div>
             <p class="muted">Max ${weather.highC}°C • Min ${weather.lowC}°C</p>
-            <h3 style="margin-top:12px">Vooruitzicht</h3>
+            <h3 style="margin-top:12px">Today</h3>
             <ul class="muted">
               <li>Vandaag: ${weather.condition}, max ${weather.highC}°C</li>
               <li>Morgen: Licht bewolkt, max 18°C</li>
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <li>Do: Buien kans, max 16°C</li>
               <li>Vr: Opklaringen, max 18°C</li>
             </ul>
-            <button class="btn" id="backBtn">← Terug</button>
+            <button class="btn" id="backBtn">← Back</button>
           </div>
         </article>`;
       document.getElementById("backBtn").onclick = () => { state.page = "home"; render(); };
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <li><time class="muted">12:05</time> Minister geeft toelichting op budget voor zoetwaterbuffers.</li>
               <li><time class="muted">11:40</time> Oppositie vraagt om meetbare doelen voor 2030.</li>
             </ul>
-            <button class="btn" id="backBtn">← Terug</button>
+            <button class="btn" id="backBtn">← Back</button>
           </div>
         </article>`;
       document.getElementById("backBtn").onclick = () => { state.page = "home"; render(); };
