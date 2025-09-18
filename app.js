@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const articles = [
-    { id: 1, title: "Klimaatmigratie", tag: "Klimaat", summary: "How people are moving due to climate change.", image: "images/a1.jpg", alt: "Mensen onderweg door een droog landschap" },
-    { id: 2, title: "Living‑lab", tag: "Innovatie", summary: "Cities as testing grounds for sustainable innovations.", image: "images/header.jpg", alt: "Futuristische stad met veel groen" },
-    { id: 3, title: "Boer in transitie", tag: "Economie", summary: "Agriculture is switching to regenerative models.", image: "images/a2.jpg", alt: "Boerderij met groene akkers" },
-    { id: 4, title: "Eenzaamheid", tag: "Sociaal", summary: "New initiatives to strengthen social cohesion.", image: "images/a3.jpg", alt: "Persoon op een bankje in de stad" },
+    { id: 1, title: "Climatemigration", tag: "Climate", summary: "How people are moving due to climate change.", image: "images/a1.jpg", alt: "Mensen onderweg door een droog landschap" },
+    { id: 2, title: "Living‑lab", tag: "Innovation", summary: "Cities as testing grounds for sustainable innovations.", image: "images/header.jpg", alt: "Futuristische stad met veel groen" },
+    { id: 3, title: "Farmer in transition", tag: "Economy", summary: "Agriculture is switching to regenerative models.", image: "images/a2.jpg", alt: "Boerderij met groene akkers" },
+    { id: 4, title: "loneliness", tag: "Social", summary: "New initiatives to strengthen social cohesion.", image: "images/a3.jpg", alt: "Persoon op een bankje in de stad" },
   ];
 
   const weather = {
