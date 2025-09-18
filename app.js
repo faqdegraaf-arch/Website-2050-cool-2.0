@@ -255,11 +255,18 @@ other can already make a meaningful difference.</p>` },
           <div class="card-content">
             <h2>${live.label}</h2>
             <p class="muted">${live.viewers} kijkers</p>
-            <ul>
-              <li><time class="muted">12:34</time> Amendment on dyke reinforcement tabled by political group PVV.</li>
-              <li><time class="muted">12:05</time> Minister explains budget for freshwater buffers.</li>
-              <li><time class="muted">11:40</time> Opposition calls for measurable targets for 2100.</li>
-            </ul>
+            <p><strong>Randstad News, 2050 –</strong>Low water levels in Dutch rivers are once again causing significant problems for inland shipping. Reservoirs and dams in parts of Southern and Eastern Europe are being filled more extensively to secure agriculture and drinking water supplies, in line with European climate adaptation guidelines. However, this has led to water shortages downstream in the Netherlands, affecting transport and logistics.</p>
+
+<p>Since this spring, inland shipping companies have been struggling with extremely low river levels. Skippers report drastically reduced capacity:
+“Normally I can carry three layers of containers, now just one. And that’s almost nothing. The water is simply too low. I’m barely keeping my head above water!” said one skipper. </p>
+
+<p>The impact extends beyond shipping. Major postal companies, including PostNL, rely heavily on inland waterways to transport large volumes of parcels to sorting centers, where drones deliver them directly to customers. Delays on the rivers are now disrupting these operations.</p>
+
+<p>PostNL CEO explained the challenge:
+“One ship equals hundreds of trucks. If shipping comes to a halt, we immediately face a problem. We now have to fall back on alternatives: extra trains and electric trucks. But that takes time, and capacity is limited. On top of that, some shipments are already stuck on vessels that can’t move any further because of the low water.”</p>
+
+<p>Experts warn that the situation highlights the Netherlands’ vulnerability to water scarcity. As long as water continues to be retained upstream, river levels will remain low, putting the country’s logistics sector under pressure. Consumers can expect parcel delays to continue for at least several more weeks.</P
+
             <button class="btn" id="backBtn">← Back</button>
           </div>
         </article>`;
