@@ -39,7 +39,7 @@ technical or agricultural expertise.</p>
 market and social services. However, community-led projects have emerged to support
 integration, including neighborhood initiatives pairing newcomers with local families.</p>`
     },
-    { id: 2, title: "Living‑lab", tag: "Innovatie", summary: "Steden als proeftuin voor duurzame innovaties.", image: "images/header.jpg", alt: "Futuristische stad met veel groen", content: `<p> Randstad News, 2050 - Amsterdam officially opened its new “living lab” on the IJ today,
+    { id: 2, title: "Living‑lab", tag: "Innovation", summary: "Cities as testing grounds for sustainable innovations.", image: "images/header.jpg", alt: "Futuristic city with lots of greenery", content: `<p> Randstad News, 2050 - Amsterdam officially opened its new “living lab” on the IJ today,
 an initiative designed to provide space for experimental innovations with water
 management. The lab will serve as both a research site and an interactive space to
 engage the public with experiments addressing the growing salinization of the IJ. <p>
@@ -221,12 +221,12 @@ other can already make a meaningful difference.</p>` },
             <h3 style="margin-top:12px">Today</h3>
             <ul class="muted">
               <li>Vandaag: ${weather.condition}, max ${weather.highC}°C</li>
-              <li>Morgen: Licht bewolkt, max 42°C</li>
-              <li>Wo: Wisselend bewolkt, max 37°C</li>
-              <li>Do: Buien kans, max 36°C</li>
-              <li>Vr: Opklaringen, max 38°C</li>
-              <h1>Daily Weather Update: Extreme Heat Persists Across the Netherlands</h1>
-  <h2>Randstad News, 2050</h2>
+              <li>Morgen: Light cloud cover, max 42°C</li>
+              <li>Wo: Partly cloudy, max 37°C</li>
+              <li>Do: Chance of rain, max 36°C</li>
+              <li>Vr: Clear skies, max 38°C</li>
+              <h2>Daily Weather Update: Extreme Heat Persists Across the Netherlands</h2>
+  <p>Randstad News, 2050</p>
 
   <p>The Netherlands experienced another extremely hot day today. 
   Temperatures reached 43°C in major cities and 37°C in rural areas. 
