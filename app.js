@@ -221,10 +221,26 @@ other can already make a meaningful difference.</p>` },
             <h3 style="margin-top:12px">Today</h3>
             <ul class="muted">
               <li>Vandaag: ${weather.condition}, max ${weather.highC}°C</li>
-              <li>Morgen: Licht bewolkt, max 18°C</li>
-              <li>Wo: Wisselend bewolkt, max 17°C</li>
-              <li>Do: Buien kans, max 16°C</li>
-              <li>Vr: Opklaringen, max 18°C</li>
+              <li>Morgen: Licht bewolkt, max 42°C</li>
+              <li>Wo: Wisselend bewolkt, max 37°C</li>
+              <li>Do: Buien kans, max 36°C</li>
+              <li>Vr: Opklaringen, max 38°C</li>
+              <h1>Daily Weather Update: Extreme Heat Persists Across the Netherlands</h1>
+  <h2>Randstad News, 2050</h2>
+
+  <p>The Netherlands experienced another extremely hot day today. 
+  Temperatures reached 43°C in major cities and 37°C in rural areas. 
+  Rivers are running almost dry and soils are severely parched.</p>
+
+  <p>A nationwide ban on sprinkling remains in effect. Watering gardens, 
+  washing cars, and filling swimming pools are prohibited. Starting today, 
+  each resident may use a maximum of 50 liters of drinking water per day. 
+  Authorities warn that the limit will be strictly enforced.</p>
+
+  <p>Looking ahead, temperatures above 35°C are expected throughout the 
+  coming week, with tropical nights in cities adding to the discomfort. 
+  Midweek, a tropical storm from the south may bring up to 200 millimeters 
+  of rain in localized areas, potentially causing flooding despite the ongoing drought.</p>
             </ul>
             <button class="btn" id="backBtn">← Back</button>
           </div>
