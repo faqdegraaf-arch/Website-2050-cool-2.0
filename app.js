@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Climatemigration",
       tag: "Climate",
       summary: "How people are moving due to climate change.",
-      image: "images/a1.jpg",
+      image: "images/AA.jpg",
       alt: "People travelling through a dry landscape",
       content: `<p><strong>Randstad News, 2050 –</strong> Amsterdam is hosting a record number of climate migrants this
 year, with 12,800 arrivals from Nigeria, according to new figures released by the
@@ -110,7 +110,7 @@ become entrepreneurs and researchers as well.”</p>
 <p>The developments in Haarlemmermeer illustrate a broader shift taking place across the
 Randstad. Saline farming, once considered a niche experiment, is now seen as a critical
 strategy for safeguarding food production in an era of accelerating climate change.</p>` },
-    { id: 4, title: "Loneliness", tag: "Social", summary: "New initiatives to strengthen social cohesion.", image: "images/a3.jpg", alt: "Person sitting on a bench in the city", content: `
+    { id: 4, title: "Loneliness", tag: "Social", summary: "New initiatives to strengthen social cohesion.", image: "images/AB.jpg", alt: "Person sitting on a bench in the city", content: `
 
 <p><strong>Randstad News, 2050 –</strong> A new study shows that loneliness in the Netherlands has risen
 sharply in recent years. While in 2025 only 18 percent of the population reported feeling
@@ -220,8 +220,8 @@ other can already make a meaningful difference.</p>` },
             <p class="muted">Max ${weather.highC}°C • Min ${weather.lowC}°C</p>
             <h3 style="margin-top:12px">Today</h3>
             <ul class="muted">
-              <li>Vandaag: ${weather.condition}, max ${weather.highC}°C</li>
-              <li>Morgen: Light cloud cover, max 42°C</li>
+              <li>Today: ${weather.condition}, max ${weather.highC}°C</li>
+              <li>Tomorrow: Light cloud cover, max 42°C</li>
               <li>Wo: Partly cloudy, max 37°C</li>
               <li>Do: Chance of rain, max 36°C</li>
               <li>Vr: Clear skies, max 38°C</li>
