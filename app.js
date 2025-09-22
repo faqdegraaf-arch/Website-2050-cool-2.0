@@ -73,7 +73,7 @@ services, and equal opportunities.”<p>
 The union is calling for a meeting with the chairperson of the Amsterdam Metropolitan
 Area and a revision of the city’s five-year budget. If their demands are not met, FFE says
 it will return with new protests during the upcoming Sail event in two weeks.` },
-    { id: 3, title: "Farmer in transition", tag: "Economy", summary: "Agriculture is transitioning to regenerative models.", image: "images/a2.jpg", alt: "Farm with green fields", content: `
+    { id: 3, title: "Farmer in transition", tag: "Economy", summary: "Agriculture is transitioning to regenerative models.", image: "images/a1.jpg", alt: "Farm with green fields", content: `
 
 <p><strong>Randstad News, 2050 –</strong> The salinization of farmland has become one of the
 Netherlands’ most pressing agricultural challenges. Driven by rising sea levels, reduced
